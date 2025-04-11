@@ -1,0 +1,58 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        //sort
+        const alpha = ["Abc", "123", "Xyz", "Rst"];
+        alpha.sort();
+        document.write(alpha);
+        document.write("<br>")
+        ///reverse
+        const months = ['Month', 'Jan', 'Feb', 'Dec'];
+        months.reverse();
+        document.write(months);
+        document.write("<br>")
+
+        //indexvalue
+        const ABC = ['a', 'b', 'c', 'd'];
+        document.write("is position of 2  <br>")
+        document.write(ABC[2]);
+        document.write("<br>");
+        const items = [1, 2, 3];
+        document.write(items);
+        document.write(" <br>reverse number")
+        items.reverse();
+        document.write(items);
+        document.write("<br>");
+
+////associate objects
+        const person={fn:"abc",ln:"xyz",age:50};
+        document.write("<br>the value of fn is<br>")
+        document.write([person.fn])
+        document.write("<br>"); 
+        document.write("<br>the age of person is<br>")
+        document.write([person.age])
+
+
+///iterator loop
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age:50,
+};
+for (x in person)
+{
+    document.write("person of age")
+    document.write([person.age])
+person[x];
+}
+
+
+    </script>
+</body>
+
+</html>
